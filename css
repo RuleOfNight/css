@@ -1,0 +1,46 @@
+/*A.Định dạng văn bản */
+body{
+    color:black; /*màu*/
+    font-family: 'Courier New', Courier, monospace; /*kiểu font chữ*/
+    font-size: 10px;/*cỡ chữ*/
+    font-weight: 100;/*độ đậm/nhạt */
+    font-style: italic; /*kiểu chữ*/
+    text-align: center;/*căn văn bản ra các phía */
+    text-decoration: none;/*không trang trí cho vb*/
+    line-height: normal;/*khoảng cách giữa các dòng */
+    letter-spacing: normal;/*khoảng cách các kí tự */
+    word-spacing: normal;/*kc các từ */
+    text-shadow: 2px 2px 5px black;/*đổ bóng ( độ lệch, độ lệch, độ mờ, màu)*/
+    text-indent: 10px;/* thụt đầu dòng*/
+    
+}
+/*B.Thuộc tính cho box */
+.container{
+    width: 100px; /*chiều rộng */
+    height: 100px;/* chiều cao */
+    padding: 100px;/* khoảng cách từ nội dung bên trong tới viền box */
+    margin: auto;/* căn */
+    border: 10px; /*định dạng viền */
+    border-radius: 5px; /* làm cong viền */
+    box-shadow: 5px 5px 10px white;/*đổ bóng */
+    display: flex;/*đặt kiểu hiển thị */
+    
+}
+/*C.Thuộc tính hiển thị*/
+.display{
+    visibility: visible;/*hiển thị*/
+    z-index: 1;/*thứ tự xếp chồng (cái nào ở trên)*/
+    overflow: hidden;/*ẩn cái vượt qua khung chứa */
+}
+/*D.Bố cục */
+.flex-container{
+    display: flex; /*flexbox */
+    flex-direction: row;/*xếp các phần tử con theo hàng ngang*/
+    flex-wrap: warp;/*đặt hiển thị dành cho các thiết bị khác nhau(kết hợp @media:hover)*/
+    justify-items: center;/*căn khoảng cách giữa các mục */
+    align-items: center;/*căn theo chiều dọc */
+    gap: 10px;/*kc giữa các mục */
+}
+/*E.Chuyển đổi hình ảnh (lười quá nào nâng cao thì bổ xung)*/
+
+/*
